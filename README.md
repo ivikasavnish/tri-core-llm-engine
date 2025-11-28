@@ -24,3 +24,28 @@ Progress: **0%** (bootstrapping).
 ```bash
 go mod tidy
 go run ./cmd/engine
+
+
+
+# Next-Gen LLM Engine (WIP)
+
+I’m building a modular, open LLM engine inspired by the same breakthroughs that
+frontier labs are targeting:
+
+- 🔹 Massive **Skill Graph** (~1,000,000 skills)
+- 🔹 **Direction → Recall → Apply** cognitive cycle
+- 🔹 **Multi-layer (multi-paint) reasoning** with self-correction
+- 🔹 **Functional Core** with sandbox execution (Git, cloud, devops, code ops)
+- 🔹 **Factual Core** (30–200GB knowledge store)
+- 🔹 **Explorative Core** (hypothesis generation)
+- 🔹 **Unified Token Space** (mix functional, factual, and creative layers)
+- 🔹 **Graph Memory Engine** (CSR, mmap, shard paging)
+- 🔹 Agents with actual operating capability (not just text)
+
+Goal:  
+A system that can recall + apply over 99% of real-world tasks using 1M composable skills.
+
+This project is early, but aligned with the direction of OpenAI, DeepMind, Anthropic,
+and other frontier researchers working on agentic, tool-using LLM architectures.
+
+If you’re exploring similar ideas or want to collaborate, feel free to reach out.
